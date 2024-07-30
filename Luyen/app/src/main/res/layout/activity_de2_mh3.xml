@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/cong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONG"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/nhap_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap a"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/nhap_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap b"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_cong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONG"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ket qua phep cong la: "
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/ket_qua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

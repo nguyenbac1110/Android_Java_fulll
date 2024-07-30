@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="th_ng_tin_sinh_vi_n">Thông tin sinh viên</string>
+    <!--    <string name="app_name">FacebookLogin</string>-->
+    <string name="email_hint">Tài khoản</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="login_button_text">Đăng nhập</string>
+    <string name="forgot_password_text">Quên mật khẩu?</string>
+    <string name="create_account_button_text">Tạo tài khoản mới</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sdt_hint">Số điện thoại</string>
+    <string name="re_password_hint">Nhập lại mật khẩu</string>
+    <string name="meta_text">Meta</string>
+    <string name="register_button_text">Đăng ký</string>
+    <string name="tieu_de_b2">Nhập loại hoa quả cần mua</string>
+</resources>

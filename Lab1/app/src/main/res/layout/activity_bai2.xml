@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".bai2">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/tieu_de_b2"
+           android:textStyle="bold"
+           android:textSize="30sp"
+           android:textColor="#2196F3"
+           android:gravity="center_vertical"
+           />
+    <EditText
+        android:id="@+id/hoa_qua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/btnhoaqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Nhập hoa quả"
+        android:background="@color/facebook_blue_color"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/view1"
+        android:title="Album moi ra" />
+    <item
+        android:id="@+id/view2"
+        android:title="Danh ba" />
+    <item
+    android:id="@+id/view3"
+    android:title="Ca sy noi tieng" />
+    <item
+    android:id="@+id/view4"
+    android:title="Thoat" />
+</menu>

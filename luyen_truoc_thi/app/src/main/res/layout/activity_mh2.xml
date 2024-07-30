@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mh2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUAN LY KY TUC XA"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOAI PHONG NGU"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ten phong ngu"
+        />
+    <EditText
+        android:id="@+id/txtten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loai phong ngu"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/pr1g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phong rieng 1 giuong"
+            />
+        <RadioButton
+            android:id="@+id/pr2g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phong rieng 2 giuong"
+            />
+        <RadioButton
+            android:id="@+id/pr3g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phong rieng 3 giuong"
+            />
+        <RadioButton
+            android:id="@+id/pr4g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phong rieng 4 giuong"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dich vu"
+        />
+    <CheckBox
+        android:id="@+id/xe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xe"
+        />
+    <CheckBox
+        android:id="@+id/wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi"
+        />
+    <Button
+        android:id="@+id/hien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hien"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"/>
+</LinearLayout>

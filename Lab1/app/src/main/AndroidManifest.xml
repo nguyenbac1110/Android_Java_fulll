@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab1"
+        tools:targetApi="31">
+        <activity
+            android:name=".FrameAnimation"
+            android:exported="false" />
+        <activity
+            android:name=".Animation"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".Vidu3" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".ViDu2" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".ActionBar.VIdu1" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".Bai1"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name="" -->
+        <!-- android:exported="true" /> -->
+        <activity
+            android:name=".TT_qua"
+            android:exported="false" />
+        <activity
+            android:name=".bai_gia"
+            android:exported="false" />
+        <activity
+            android:name=".bai2"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterFacebook"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".lab4" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".demo5"
+            android:exported="false" />
+        <activity
+            android:name=".LoginFaceBook"
+            android:exported="false" />
+        <activity
+            android:name=".demo4"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".ViDu2" -->
+        <!-- android:exported="true"> -->
+        <activity
+            android:name=".Vidu3"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/view1"
+        android:title="Album mới ra"
+        />
+    <item
+        android:id="@+id/view2"
+        android:title="Danh sach cac bai hat"
+        />
+    <item
+        android:id="@+id/view3"
+        android:title="Ca si noi tieng"
+        />
+    <item
+        android:id="@+id/view4"
+        android:title="Thoat"
+        />
+</menu>
